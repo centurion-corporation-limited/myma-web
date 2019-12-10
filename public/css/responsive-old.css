@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width: 320px) and (max-width: 480px){
+.carousel-caption{ top:-7%;}
+.banner-buttons{bottom: 22%;}
+.carousel-caption h2{ font-size:20px;}
+.profile-caption h2 {font-size: 16px;}
+.carousel-caption p{ font-size:17px;}
+.btn.btn-primary{ margin-bottom:10px;}
+.carousel-inner { height: 340px;}
+.brand-right li{ padding-left: 100px;margin-bottom:40px; height:auto;padding-bottom:45px;}
+.influence-left > img { width: 100%;}
+.login-wrapper .login-box, .login-left, .login-right{ width:100%;}
+.login-left { border-right: medium none;}
+.features-left{ text-align:left; width:100%;}
+.features-right{margin-left: 0; width:100%;}
+.banner-buttons .btn-primary, .banner-buttons .btn-default{ height:50px; line-height:50px;}
+.footer-innar .foo-Navigation{ border-right:none;}
+.footer-innar .foo-Connect{ border-right:none;}
+.form-group { margin-top: 20px; text-align: left;}
+.blog-info img{ height:auto;}
+.blog-detail-img img{ height:auto;}
+.brand-right span{ display:none;}
+.brand-right h2{margin: 5px 0;}
+.testimonials-left{ width:100%;}
+.testimonials-right{ width:100%;}
+.testimonials-review{ text-align:center;}
+.test-text{ width:100%;margin-top: 20px;}
+.test-img{width: auto;}
+.bp-menu{ top: 9%; right:0;}
+.icon-caret {background: rgba(0, 0, 0, 0) url("../images/icon-drop.png") no-repeat scroll 94% 21px;}
+.foo-Navigation, .foo-Connect{ height:inherit;}
+.panel-heading .accordion-toggle::after { margin-right: -36px; margin-top: -23px;}
+.icon-time{ margin-top: 10px;margin-left: 0;}
+.filter-right{float: inherit;}
+.form-short{float: left; margin-left: 0px; text-align: left; width: 100%;}
+.counter-right{ width:82%;}
+.opportunities-right li{ height:auto;}
+.opportunities-right span{ display:none;}
+.login-wrapper{ height:auto;}
+.login-innar .form-group{ text-align:center;}
+.edit-campaign { bottom: 4%;}
+.brif-left { display: inline-block; vertical-align: top;  width: 100%;}
+.brif-right { float: inherit; padding-bottom: 20px; vertical-align: top;  width: 100%;}
+.brif-right > ul { text-align: left;}
+.bx-wrapper .bx-prev {  background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll 0 -32px;left: -16px;position: absolute; top: -54px;}
+.bx-wrapper .bx-next { background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll -43px -32px;   position: absolute; right:-16px; top: -54px;}
+#form-reply img { width: 24px;}
+#emoji-textarea + .emojionearea.form-control{margin: 0 53px !important;}
+.emojionearea, .emojionearea.form-control{ width:60% !important;}
+.emojionearea + input[type="submit"]{ width:40px !important;}
+.foo-Get-in-touch img{ width:100%;}
+.profile-caption{ margin-bottom:5px;}
+.about-us h3 { font-size: 16px;}
+.about-us p{ font-size:16px;}
+.login-wrapper { height: auto; margin-top: 50px;}
+.rating_given > img { width: 12px;}
+.user-details p { color: #fff; font-size: 14px;}
+.test-user,.test-user-1{width: 75%;}
+.influence-right li{font-size: 18px;}
+.signup-right a{font-size: 18px;}
+.features-info-detail img{border: 2px solid #fff; width: 100%;}
+.foo-Get-in-touch h2 { text-align: left;}
+.foo-Get-in-touch { text-align: left;}
+.counter-right > a {font-size: 20px;}
+.campaigns-img img{height: inherit;}
+.blog-detail-img-sm { margin: 0 auto; width: 100%;}
+}
+@media screen and (min-width: 375px) and (max-width: 668px){
+.brand-right span{ display:none;}
+.pages-banner > img{ margin-top:70px !important;}
+.profile-caption h2{font-size:16px;}
+.profile-caption p{font-size:16px;}
+.profile-caption{ margin-bottom:5px;}
+.foo-Navigation, .foo-Connect{ height:inherit;}
+.pages-banner{ margin-top:0;}
+.form-button, .btn-cancel{ margin-bottom:10px;}
+.brand-right li{ height:auto; padding-bottom:45px;}
+.icon-time{ margin-top: 10px;margin-left: 0;}
+.filter-right{float: inherit;}
+.form-short{float: left; margin-left: 0px; text-align: left; width: 100%;}
+.counter-right{ width:86%;}
+.opportunities-right li{ height:auto;}
+.opportunities-right span{ display:none;}
+.login-wrapper{ height:auto; margin-top: 50px ;}
+.login-innar .form-group{ text-align:center;}
+.open-campaign, .closed-campaign{font-size: 14px;padding: 14px;}
+.campaign-open > span{ padding-left:0;font-size: 14px;}
+.share-detail{ padding:10px;}
+/*.send-item{padding: 30px 0 !important;}*/
+#emoji-textarea + .emojionearea.form-control{ margin: 0 65px !important;}
+.emojionearea + input[type="submit"]{ width:30px !important;}
+#emoji-textarea + .emojionearea.form-control{ width:67% !important;}
+.about-us h3{ font-size:18px;}
+.about-us p{ font-size:16px;}
+#form-reply img { width: 24px;}
+.brif-left { display: inline-block; vertical-align: top;  width: 100%;}
+.brif-right { float: inherit; padding-bottom: 20px; vertical-align: top;  width: 100%;}
+.brif-right > ul { text-align: left;}
+.features-info-detail img{border: 2px solid #fff; width: 100%;}
+.example-item .slider1 a {line-height: 1.5em;}
+.bx-wrapper .bx-controls-direction a {height: 32px; width: 32px;}
+.bx-controls-direction { position: relative !important;}
+.bx-wrapper .bx-prev {  background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll 0 -32px;left: -13px;position: absolute; top: -54px;}
+.bx-wrapper .bx-next { background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll -43px -32px;   position: absolute; right:-13px; top: -54px;}
+.test-user, .test-user-1{ width:80%;}
+.check-lable {margin-top: -34px;}
+.banner-buttons{bottom: 29%;}
+.foo-Get-in-touch h2 { text-align: left;}
+.foo-Get-in-touch { text-align: left;}
+.campaigns-img img{height: inherit;}
+.blog-detail-img-sm { margin: 0 auto; width: 100%;}
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+.carousel-caption{top:7%;}
+.carousel-caption h2{ font-size:22px;}
+.carousel-caption p{font-size:18px;}
+.testimonials-left{ width:100%;}
+.testimonials-right{ width:100%;}
+.testimonials-review{ text-align:center;}
+.test-text{ width:100%;margin-top: 20px;}
+.test-img{width: auto;}
+.foo-Navigation, .foo-Connect{ height:inherit;}
+.features-info-detail img{border: 2px solid #fff; width: 100%;}
+.bx-wrapper .bx-prev {  background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll 0 -32px;left: -13px;position: absolute; top: -54px;}
+.bx-wrapper .bx-next { background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll -43px -32px;   position: absolute; right:-13px; top: -54px;}
+.login-wrapper .login-box, .login-left, .login-right {width: 100%;}
+.login-left {border-right:none;}
+.opportunities-right span{margin-top: -83px; padding-left: 30px;}
+.profile-caption h2{font-size: 28px;}
+.foo-Get-in-touch h2 { text-align: left;}
+.foo-Get-in-touch { text-align: left;}
+.banner-buttons { bottom: 23%;}
+.footer-innar .foo-Connect, .footer-innar .foo-Navigation { border-right:none;}
+.campaigns-img img{height: inherit;}
+.blog-detail-img-sm { margin: 0 auto; width: 100%;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+.login-wrapper .login-box{ width:100%;}
+.foo-Get.in.touch img { width: 100%;}
+.fill{ height:400px;}
+.carousel-caption{ top:10%;}
+.item, .active, .carousel-inner { height: auto;}
+.testimonials-left{ width:100%;}
+.testimonials-right{ width:100%;}
+.testimonials-review{ text-align:center;}
+.test-text{ width:100%;margin-top: 20px;}
+.test-img{width: auto;}
+.foo-Get-in-touch img { width:100%;}
+.new-row{ width:50%; margin-left:-15px;}
+.form-button, .btn-cancel{margin-bottom: 10px;}
+.form-short{ width:160px;}
+.opportunities-right span{margin-top: -74px; padding-left: 34px;}
+.carousel-caption h2{font-size: 32px;}
+.carousel-caption p{font-size: 16px;}
+.brand-left h2{ font-size:36px;}
+.brand-left h2 span{ font-size: 56px;}
+.profile-caption h2{ font-size:28px;}
+.example-item .slider1 a {line-height: 1.5em;}
+.bx-wrapper .bx-controls-direction a {height: 32px; width: 32px;}
+.bx-controls-direction { position: relative !important;}
+.bx-wrapper .bx-prev {  background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll 0 -32px;left: -20px;position: absolute; top: -54px;}
+.bx-wrapper .bx-next { background: rgba(0, 0, 0, 0) url("../images/controls.png") no-repeat scroll -43px -32px;   position: absolute; right:-20px; top: -54px;}
+#form-reply img {width: 30px !important;}
+.emojionearea + input[type="submit"]{width: 28px !important;}
+#emoji-textarea + .emojionearea.form-control{margin: 0 75px !important;}
+.campaigns-img img{height: 290px;}
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+.testimonials-left > img{ height: 435px;}
+}
+@media screen and (min-width: 1280px) and (max-width: 1366px){
+.testimonials-left > img{ height: 435px;}
+}

@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+/*.daterangepicker .ranges li {
+    color: #73879C
+}
+.daterangepicker .ranges li.active,
+.daterangepicker .ranges li:hover {
+    background: #536A7F;
+    border: 1px solid #536A7F;
+    color: #fff
+}
+.daterangepicker .input-mini {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    box-shadow: none !important
+}
+.daterangepicker .input-mini.active {
+    border: 1px solid #ccc
+}
+.daterangepicker select.monthselect,
+.daterangepicker select.yearselect,
+.daterangepicker select.hourselect,
+.daterangepicker select.minuteselect,
+.daterangepicker select.secondselect,
+.daterangepicker select.ampmselect {
+    font-size: 12px;
+    padding: 1px;
+    height: auto;
+    margin: 0;
+    cursor: default;
+    height: 30px;
+    border: 1px solid #ADB2B5;
+    line-height: 30px;
+    border-radius: 0px !important
+}
+.daterangepicker select.monthselect {
+    margin-right: 2%
+}
+.daterangepicker td.in-range {
+    background: #E4E7EA;
+    color: #73879C
+}
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+    background-color: #536A7F;
+    color: #fff
+}
+.daterangepicker th.available:hover {
+    background: #eee;
+    color: #34495E
+}
+.daterangepicker:before,
+.daterangepicker:after {
+    content: none
+}
+.daterangepicker .calendar.single {
+    margin: 0 0 4px 0
+}
+.daterangepicker .calendar.single .calendar-table {
+    width: 224px;
+    padding: 0 0 4px 0 !important
+}
+.daterangepicker .calendar.single .calendar-table thead tr:first-child th {
+    padding: 8px 5px
+}
+.daterangepicker .calendar.single .calendar-table thead th {
+    border-radius: 0
+}
+.daterangepicker.picker_1 {
+    color: #fff;
+    background: #34495E
+}
+.daterangepicker.picker_1 .calendar-table {
+    background: #34495E
+}
+.daterangepicker.picker_1 .calendar-table thead tr {
+    background: #213345
+}
+.daterangepicker.picker_1 .calendar-table thead tr:first-child {
+    background: #1ABB9C
+}
+.daterangepicker.picker_1 .calendar-table td.off {
+    background: #34495E;
+    color: #999
+}
+.daterangepicker.picker_1 .calendar-table td.available:hover {
+    color: #34495E
+}
+.daterangepicker.picker_2 .calendar-table thead tr {
+    color: #1ABB9C
+}
+.daterangepicker.picker_2 .calendar-table thead tr:first-child {
+    color: #73879C
+}
+.daterangepicker.picker_3 .calendar-table thead tr:first-child {
+    color: #fff;
+    background: #1ABB9C
+}
+.daterangepicker.picker_4 .calendar-table thead tr:first-child {
+    color: #fff;
+    background: #34495E
+}
+.daterangepicker.picker_4 .calendar-table td,
+.daterangepicker.picker_4 .calendar-table td.off {
+    background: #ECF0F1;
+    border: 1px solid #fff;
+    border-radius: 0
+}
+.daterangepicker.picker_4 .calendar-table td.active {
+    background: #34495E
+}
+.calendar-exibit .show-calendar {
+    float: none;
+    display: block;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    overflow: hidden
+}
+.calendar-exibit .show-calendar .calendar {
+    margin: 0 0 4px 0
+}
+.calendar-exibit .show-calendar.picker_1 {
+    background: #34495E
+}
+.calendar-exibit .calendar-table {
+    padding: 0 0 4px 0
+}*/
+.form-control-feedback.left {
+    /*border-right: 1px solid #ccc;*/
+    right: 26px;
+    margin-top: 3px;
+}
+
+.tagsinput{ min-height: calc(100% - 50px)!important; height: calc(100% - 50px)!important;}
+.form-group span.tag{margin-top:0;}
+.form-group span.tag span{float: none; margin-top: 0px; font-size: 15px;}
+input[type="file"] {
+    /*display: none;*/
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.custom-btn-a{line-height: 2.3; margin-bottom:3px;}
+.custom-btn-a:hover{color:#fff;}
+.bootbox .btn{
+  padding: 6px 12px;
+font-size: 14px;
+}
+.modal-body .bootbox-body{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.bootbox .modal-footer{
+      text-align: center;
+}
+.password-wrapper {background: rgba(0, 0, 0, 0) url("../images/img-bg-login.jpg") no-repeat scroll 0 0 / cover ; padding-top: 11%; height:500px;}
+.btn-sort{    background: #69d2e7 !important;
+    border: medium none !important;
+    border-radius: 5px !important;
+}
+.campaign-text {-ms-word-break: normal;word-break: normal; word-wrap: break-word;min-height: 74px;
+    height: 74px;
+    overflow: hidden;}
+.campaign-brif img { width:100%;}
+.blog-text {-ms-word-break:normal;word-break: normal; word-wrap: break-word; height:150px; overflow: hidden;}
+label.choose-file {width: 100%; text-align: center !important; color: white !important;}
+.emojionearea, .emojionearea.form-control{ display: inline-block !important; width: 80%;}
+.emojioneemoji{font-size: inherit;
+    height: 2ex;
+    width: 2.1ex;
+    min-height: 20px;
+    min-width: 20px;
+    display: inline-block;
+    margin: -.2ex .15em .2ex;
+    line-height: normal;
+    vertical-align: middle;
+    max-width: 100%;
+    top: 0;
+}
+.features h4{color: #fff;}
+.mg-top .btn-can{width: inherit;}
+.foo-Navigation a{color: #fff; text-decoration: none;}
+.foo-Connect a, .foo-Get-in-touch a{text-decoration: none;color: #69d2e7;}
+.foo-Get-in-touch a:hover{color: #69d2e7;}
+.tagsinput{    height: 45px;
+    box-shadow: none;
+    border-radius: 5px;
+    color: #474747;
+    font-size: 17px;
+    font-weight: 300;}
+.blog-info img{object-fit: cover;}
+.dropdown-bp-menu{ padding: 0;}
+.dropdown-bp-menu li{
+    list-style: none;
+    font-size: 16px;
+    background: #f38631;
+    border-top: 1px solid #4c4c4c;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+}
+.dropdown-bp-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px 10px 14px;
+}
+.dropdown-bp-menu li a:hover{
+  background: #69d2e7;
+}
+.bp-menu li:hover{
+  background: #69d2e7;
+}
+.bp-menu{
+  right: 6% !important;
+    top: 7% !important;
+}
+.no-wrap{    white-space: nowrap;}
+.bp-menu li.active {
+    background: #69d2e7;
+    border: 1px solid #69d2e7;
+}
+#file + label {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+.msg {
+	width: 100%;
+	margin: 0 auto;
+	background: #ededed;
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+}
+#emoji-textarea + .emojionearea.form-control {
+	float: left;
+	margin: 0 100px;
+}
+.emojionearea + input[type="submit"] {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translate(0,-50%);
+	width: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.chat-innar {
+	background: #f9f9f9;
+	border: 1px solid #69d2e7;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	float: left;
+	width: 100%;
+}
+.send-item {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+/* style 4 */
+
+.inputfile-4 + label {
+    color: #d3394c;
+}
+
+.inputfile-4:focus + label,
+.inputfile-4.has-focus + label,
+.inputfile-4 + label:hover {
+    color: #722040;
+}
+
+.inputfile-4 + label figure {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #d3394c;
+    display: block;
+    padding: 20px;
+    margin: 0 auto 10px;
+}
+
+.inputfile-4:focus + label figure,
+.inputfile-4.has-focus + label figure,
+.inputfile-4 + label:hover figure {
+    background-color: #722040;
+}
+
+.inputfile-4 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+.inputfile, .customfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.customfile + label{ padding: 12px 20px;  line-height: 1;  cursor: pointer;  width: 100%;}
+.fileUpload.btn{ padding : 0;}
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label { outline: 1px dotted #000; outline: -webkit-focus-ring-color auto 5px;}
+.inputfile + label * {   /* pointer-events: none; */    /* in case of FastClick lib use */}
+.emojionearea .emojionearea-editor{min-height: 4em !important;}
+.custom-has-error{ border: 2px solid #a94442 !important; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+.form-group lable { color: #f00;}
+.edit-campaign { cursor: pointer;}
+.form-group span { word-wrap: break-word;}
+a.verify { padding: 0;font-weight: inherit;font-size: inherit;color: #337ab7;}
+.influencers h2, .contacting h2, .campaign h2{padding-top: 16px;}
+.table-grid th, .table-grid td, .table-ongoing th, .table-ongoing td{ vertical-align:middle !important;}
+.hyperlinked{text-decoration: underline;}
+.readonly_rating, .rating_star, .rating_given, .give_rating{white-space: nowrap; float: left}
+.campaigns-img img{object-fit: cover;}

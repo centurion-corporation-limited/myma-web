@@ -1,0 +1,16 @@
+{
+  "short_name": "MYMA",
+  "name": "MYMA ADMIN",
+  "icons": [
+	  {
+		"src":"firebase-logo.png",
+		"sizes": "120x64",
+		"type": "image/png"
+	  }
+  ],
+  "start_url": "/",
+  "background_color": "#000",
+  "theme_color": "#fff",
+  "display": "standalone",
+  "gcm_sender_id": "103953800507"
+}

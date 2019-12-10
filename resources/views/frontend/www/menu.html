@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Meta, title, CSS, favicons, etc. -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Custom Theme Style -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Food Merchant</title>
+
+    </head>
+    <body>
+
+        <header class="header">
+          <h2>Menu</h2>
+        </header>
+
+        <div class="page-content">
+        <div class="sec-menu">
+            @if(count($menu))
+                @foreach($menu as $item)
+                <div class="menu-items">
+                    <div class="menu-left">
+                        <a href="{{ route('merchant.menu.view', $item->id) }}"><img src="@if($item->image) {{  static_file($item->image) }} @else {{ static_file('merchant/images/img-menu-01.jpg') }} @endif" alt=""></a>
+                    </div>
+                    <div class="menu-text">
+                        <h2><a href="{{ route('merchant.menu.view', $item->id) }}">{{ $item->name }}</a></h2>
+                        <p>{{ $item->description }}</p>
+                        <p>S$ {{ $item->price }}</p>
+                    </div>
+                </div>
+                @endforeach
+            @else
+                Click on create menu to add items.
+            @endif
+
+        </div>
+        <div class="tabs">
+            <ul>
+                <li class="active"><a class="active" href="{{ route('merchant.item.add') }}">Add Item</a></li>
+                <li><a href="{{ route('merchant.package.add') }}">Add Package</a></li>
+            </ul>
+        </div>
+
+        </div>
+
+        <footer class="footer">
+          <ul>
+            <li><a class="active" href="{{ route('merchant.home') }}"><span><img src="images/icon-dashboard.png" alt=""></span>Dashboard</a></li>
+            <li><a href="{{ route('merchant.profile.view') }}"><span><img src="images/icon-profile-1.png" alt=""></span>Profile</a></li>
+            <li><a href="{{ route('merchant.menu.list') }}"><span><img src="images/icon-management-1.png" alt=""></span>Management</a></li>
+            <li><a href="{{ route('merchant.account.list') }}"><span><img src="images/icon-account-1.png" alt=""></span>Account</a></li>
+            <li><a href="{{ route('logout') }}"><span><img src="images/icon-logout-1.png" alt=""></span>Logout</a>
+            </li>
+          </ul>
+        </footer>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>

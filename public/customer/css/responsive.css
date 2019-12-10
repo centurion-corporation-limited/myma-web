@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+/* CSS Document */
+.carousel-indicators {
+	bottom: 10px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  body{
+    font-size: 12px;
+  }
+
+    h2,
+    h3 {
+        font-size: 1.4em;
+        margin: 0;
+    }
+
+    .populat-itams,
+    .post-details {
+        padding: 0 20px;
+    }
+
+
+
+    .header h2 {
+        font-size: 1.6em;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .icon-right {
+        top: 12px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .cant-access {
+        margin-top: 20%;
+    }
+
+    .back-btn {
+        top: 15px;
+    }
+
+
+
+    .btn-carat {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+
+
+
+    .post-details span img {
+        width: 20px;
+    }
+
+
+
+    .footer li {
+        font-size: 1.2em;
+    }
+
+
+    .top-btn,
+    .upload-btn,
+    .btn-black {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .form-topic label,
+    .form-topic-sm label {
+        font-size: 15px;
+    }
+
+    .table-grid h2 {
+        font-size: 16px;
+    }
+
+    .table-grid p,
+    .table-grid td {
+        font-size: 14px;
+    }
+
+    .table-grid th {
+        font-size: 16px;
+    }
+
+
+    .subscription-grid td..subscription-grid th {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .confirm-order a {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+
+    h2,
+    h3 {
+        font-size: 1.4em;
+    }
+
+    .populat-itams,
+    .post-details {
+        padding: 0 20px;
+    }
+
+    .header h2 {
+        font-size: 1.4em;
+    }
+
+    .header {
+        padding: 2px;
+    }
+
+    .icon-right {
+        top: 12px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .cant-access {
+        margin-top: 20%;
+    }
+
+
+    .btn-carat {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+
+
+    .form-topic label,
+    .form-topic-sm label {
+        font-size: 15px;
+    }
+
+    .form-topic-sm {
+        margin-right: 10px;
+        width: 28%;
+    }
+
+    .top-btn,
+    .upload-btn,
+    .btn-black {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .table-grid th,
+    .table-grid p,
+    .cuisine-right p,
+    .delivered-text {
+        font-size: 14px;
+    }
+
+    .table-grid h2 {
+        font-size: 15px;
+    }
+
+
+
+    .count {
+        background: rgba(0, 0, 0, 0) url("../images/icon-counter-md.png") no-repeat scroll 0 0;
+        font-size: 15px;
+        height: 37px;
+        padding: 8px 15px;
+        width: 36px;
+    }
+
+    .icon-cal {
+        background: rgba(0, 0, 0, 0) url("../images/icon-calender-md.png") no-repeat scroll 99% 8px;
+    }
+
+    .form-control,
+    .form-control-md,
+    .form-control-sm {
+        height: 46px;
+        line-height: 46px;
+        font-size: 14px;
+    }
+
+
+
+    .form-control-md {
+        width: 42%;
+        margin: 12px 10px;
+        padding: 0 10px;
+    }
+
+
+
+    .confirm-order a {
+        font-size: 13px;
+    }
+    .item-cuisine li {
+        font-size: 14px;
+        font-weight: normal;
+        width: 100%;
+        margin: 0;
+        padding: 0 40px 0 0;
+        background: transparent;
+        box-shadow: none;
+        position: relative;
+        word-break: break-all;
+    }
+}
+@media screen and (min-width: 375px) and (max-height: 667px) {
+
+    .profile {
+        padding: 20px;
+    }
+
+    .user-info p {
+        padding: 20px 0;
+    }
+
+    .edit-profile {
+        right: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-height:1024px) {
+
+  .page-content, .sec-menu, .profile, .account-sec, .create-menu {
+/* overflow-x: scroll; */
+/* width: 100%; */
+padding-bottom: 0px;
+}
+
+    .profile label {
+        width: 25%;
+    }
+
+
+
+    .profile label,
+    .profile span {
+        width: 49%;
+    }
+
+    .user-info img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .date-pic {
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    .form-control-md {
+        width: 45%;
+    }
+
+    .user-info {
+        margin-bottom: 5%;
+        margin-top: 6%;
+    }
+
+    .login-form .mg-top {
+        margin: 111px 0;
+    }
+
+    .profile label,
+    .profile span {
+        font-size: 18px;
+        font-weight: 300;
+        color: #3c3c3c;
+    }
+
+    .form-group,
+    .form-control {
+        font-size: 18px;
+    }
+
+    .user-info p {
+        font-size: 20px;
+    }
+
+    .user-info {
+        width: 30%;
+    }
+
+    .user-info h3 {
+        font-size: 2.6em;
+    }
+
+    .icon-cal {
+        background: rgba(255, 255, 255) url(../images/icon-calender.png) no-repeat scroll 97% 8px;
+    }
+
+
+
+    .item-cuisine li {
+        width: 47%;
+    }
+
+    .populat-itams,
+    .post-details {
+        padding: 0 20px;
+    }
+
+    .carousel-inner {
+        height: 328px;
+    }
+
+    .checkout {
+        bottom: 95px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-height:768px) {
+
+    .login-form {
+        margin-top: 6%;
+    }
+
+    .logo {
+        padding-top: 6%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+	.item-cuisine > a {
+		padding: 15px 10px;
+	}
+}
+
+
+@media only screen and (max-width: 360px){
+	.btn-carat {
+			padding: 5px 10px;
+	}
+	.star-text-shown .cancel-on-png, .star-text-shown .cancel-off-png, .star-text-shown .star-on-png, .star-text-shown .star-off-png, .star-text-shown .star-half-png {
+		font-size: 1em !important;
+	}
+
+}

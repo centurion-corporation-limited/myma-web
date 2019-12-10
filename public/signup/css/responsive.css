@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.header-logo img{ width:150px; margin-top:14px;}
+.back-btn img{ width:30px;}
+.header-right img {height: 50px; width: 50px;}
+.post-info:nth-child(2){margin: 0 1%;}
+.item-topup li a{ font-size:15px;}
+.item-topup li img{ width:22px;}
+.item-topup li{ padding:9px; width:47%;}
+.courses-list:nth-child(3){ margin:10px 5px;}
+.forum-left{ width:34%;}
+.forum-right{ width:64%;}
+.splash-bg{  background: rgba(0, 0, 0, 0) url("../images/img-bg.png") no-repeat 0 0 / cover ; text-align: center; width:320px; height:569px;}
+}
+

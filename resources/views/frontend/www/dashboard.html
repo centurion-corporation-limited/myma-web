@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Meta, title, CSS, favicons, etc. -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Custom Theme Style -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Food Merchant</title>
+
+        <style>
+        .list-bg a, .order-details a{ background:inherit !important; padding:0;}
+        </style>
+    </head>
+    <body>
+
+        <header class="header">
+          <h2>Home</h2>
+          <span class="icon-right">
+              <a href="{{ route('merchant.package.subscribed') }}">
+                  <img src="images/icon-food.png" alt="">
+              </a>
+              <a href="{{ route('merchant.order.history') }}">
+                  <img src="images/icon-history.png" alt="">
+              </a>
+          </span>
+        </header>
+
+
+
+        <div class="page-content page-bg">
+        @foreach($orders as $order)
+        <div class="list-bg">
+          <ul>
+            <li>
+              <label><strong>Batch Id</strong></label>
+              <span>: <a href="{{ route('merchant.order.view', $order->id) }}">{{ $order->batch_id }}</a></span>
+            </li>
+            <li>
+              <label>Order Id</label>
+              <span>: <a href="{{ route('merchant.order.view', $order->id) }}">#{{ $order->id }}</a></span>
+            </li>
+            <li>
+              <label>Pickup Time</label>
+              <span>: @if($morning > 0)11:00 AM @else 07:00 PM @endif</span>
+            </li>
+          </ul>
+          <span class="totel-qty">Total Qty : {{ $order->item_count }}</span>
+          @if($order->status_id < 9)
+            <a class="btn-status" item-id="{{ $order->id }}" data-toggle="modal" data-target="#myModal">Update Status</a>
+          @else
+            <a class="btn-status active" href="javascript:;">Ready For Pick up</a>
+          @endif
+        </div>
+        @endforeach
+
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body order-popup">
+                <h2>Change Status to Packed ?</h2>
+                <ul>
+                  <li class="btn btn-default change_status"><a href="#">Yes</a></li>
+                  <li class="btn btn-default" data-dismiss="modal"><a href="#" >No</a></li>
+                </ul>
+                <a class="icon-close" data-dismiss="modal" href="#"><img src="{{ static_file('merchant/images/icon-close.png') }}" alt=""></a> </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+        <footer class="footer">
+          <ul>
+            <li><a class="active" href="{{ route('merchant.home') }}"><span><img src="images/icon-dashboard.png" alt=""></span>Dashboard</a></li>
+            <li><a href="{{ route('merchant.profile.view') }}"><span><img src="images/icon-profile-1.png" alt=""></span>Profile</a></li>
+            <li><a href="{{ route('merchant.menu.list') }}"><span><img src="images/icon-management-1.png" alt=""></span>Management</a></li>
+            <li><a href="{{ route('merchant.account.list') }}"><span><img src="images/icon-account-1.png" alt=""></span>Account</a></li>
+            <li><a href="{{ route('logout') }}"><span><img src="images/icon-logout-1.png" alt=""></span>Logout</a>
+            </li>
+          </ul>
+        </footer>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+        $(document).on('click', '.change_status', function(){
+            var item_id = $(this).attr('item-id');
+            $.ajax({
+                data: {item_id:item_id},
+                method:'post',
+                url: "{{ route('ajax.order.update') }}",
+                error: function(xhr){
+                    console.log("Error");
+                    console.log(xhr);
+                    // $('.well.profile').html(xhr.statusText);
+                },
+                success: function(xhr){
+                    console.log("Success");
+                    var data = JSON.parse(xhr);
+                    console.log(data);
+                    if(data.status){
+                        location.reload();
+                    }else{
+                        alert("Something went wrong. Try Again");
+                    }
+                    // $('.well.profile').html(html);
+                }
+            });
+        });
+
+        $('#myModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var item_id = button.attr('item-id');
+            $('.change_status').attr('item-id', item_id);
+        });
+        </script>
+    </body>
+</html>

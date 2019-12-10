@@ -1,0 +1,558 @@
+[16-Oct-2018 13:40:25 Asia/Singapore] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 32
+[16-Oct-2018 13:41:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 32
+[16-Oct-2018 13:45:57 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/DashboardController.php on line 37
+[16-Oct-2018 13:50:11 Asia/Singapore] PHP Parse error:  syntax error, unexpected '(' in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/DashboardController.php on line 55
+[16-Oct-2018 14:14:23 Asia/Singapore] PHP Fatal error:  Call to undefined method Illuminate\Routing\Redirector::url() in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/Auth/LoginController.php on line 58
+[18-Oct-2018 14:12:55 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 276
+[22-Oct-2018 18:00:57 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Response' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 404
+[22-Oct-2018 18:33:01 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''-'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/storage/framework/views/5a4703420a953975aa9cbb2e3071d372ad5ddbc7.php on line 42
+[22-Oct-2018 20:25:42 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\ProductType' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 630
+[22-Oct-2018 20:28:46 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Option' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 658
+[23-Oct-2018 15:19:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:19:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:19:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:19:24 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:19:26 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:23:54 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:11 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:11 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:11 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:29 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:30 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:30 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:43:33 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:44:17 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:44:17 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:44:17 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:45:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:45:40 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:45:40 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:45:45 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:45:49 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:45:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:45:56 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:46:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:46:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:46:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:46:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:46:34 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:46:40 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:08 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:08 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:08 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:14 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:23 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:26 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:29 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:29 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:35 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:43 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:43 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 15:47:44 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:39:53 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:39:53 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:39:53 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:40:03 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:40:03 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:40:03 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:40:05 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:46:24 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:46:24 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:46:24 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:46:30 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 16:55:04 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 17:01:35 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1884
+[23-Oct-2018 17:02:50 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.food_menu'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1885
+[23-Oct-2018 17:03:05 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1897
+[23-Oct-2018 17:03:42 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1966
+[23-Oct-2018 18:41:19 Asia/Singapore] PHP Fatal error:  Call to undefined method Illuminate\Session\Store::getErrors() in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/Auth/LoginController.php on line 59
+[23-Oct-2018 18:46:44 Asia/Singapore] PHP Fatal error:  Cannot access protected property Illuminate\Session\Store::$attributes in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/Auth/LoginController.php on line 59
+[23-Oct-2018 18:47:21 Asia/Singapore] PHP Fatal error:  Call to undefined method Illuminate\Session\Store::hasErrors() in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/Auth/LoginController.php on line 59
+[23-Oct-2018 18:48:49 Asia/Singapore] PHP Fatal error:  Call to protected method Illuminate\Session\Store::readFromHandler() from context 'App\Http\Controllers\Auth\LoginController' in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/Auth/LoginController.php on line 59
+[23-Oct-2018 20:44:05 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1885
+[23-Oct-2018 20:44:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''.order_items'' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1885
+[23-Oct-2018 21:38:01 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Api\Transactions' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1804
+[24-Oct-2018 10:44:46 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Api\FoodMerchant' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1393
+[24-Oct-2018 11:04:07 Asia/Singapore] PHP Fatal error:  Cannot use [] for reading in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1344
+[24-Oct-2018 16:05:44 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:05:54 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:05:54 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:06:10 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:06:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:06:41 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:07:07 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:07:25 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:07:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:07:38 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:07:51 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:07:56 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:08:01 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:08:14 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:08:51 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:09:01 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:09:03 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:09:09 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:09:16 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:09:26 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:09:40 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:10:14 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:10:32 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:10:37 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:10:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:10:55 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:11:01 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:11:05 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:11:10 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:11:24 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 16:11:45 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 1079
+[24-Oct-2018 17:27:20 Asia/Singapore] PHP Parse error:  syntax error, unexpected ''view.cour' (T_ENCAPSED_AND_WHITESPACE) in /home/myhype/public_html/wlc/routes/web.php on line 769
+[24-Oct-2018 21:18:07 Asia/Singapore] PHP Fatal error:  Class 'log' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 70
+[25-Oct-2018 02:01:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/CustomerController.php on line 381
+[25-Oct-2018 03:18:57 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/CustomerController.php on line 504
+[25-Oct-2018 04:07:31 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1382
+[25-Oct-2018 04:07:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 1382
+[25-Oct-2018 15:19:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected '$order' (T_VARIABLE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 310
+[25-Oct-2018 15:19:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected '$order' (T_VARIABLE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 310
+[25-Oct-2018 15:19:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected '$order' (T_VARIABLE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 310
+[25-Oct-2018 15:19:46 Asia/Singapore] PHP Parse error:  syntax error, unexpected '$order' (T_VARIABLE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 310
+[25-Oct-2018 15:19:46 Asia/Singapore] PHP Parse error:  syntax error, unexpected '$order' (T_VARIABLE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 310
+[25-Oct-2018 15:19:46 Asia/Singapore] PHP Parse error:  syntax error, unexpected '$order' (T_VARIABLE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 310
+[25-Oct-2018 19:13:32 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 866
+[25-Oct-2018 20:58:35 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 75
+[25-Oct-2018 20:58:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 75
+[25-Oct-2018 20:58:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 75
+[25-Oct-2018 20:58:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 75
+[25-Oct-2018 20:58:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 75
+[25-Oct-2018 20:58:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 75
+[25-Oct-2018 20:58:59 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 76
+[25-Oct-2018 20:59:00 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 76
+[25-Oct-2018 20:59:00 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 76
+[26-Oct-2018 01:38:39 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:40 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:40 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:45 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:45 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:45 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:53 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:54 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 01:38:55 Asia/Singapore] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\MerchantController::$API_SERVER_KEY_DRIVER in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 28
+[26-Oct-2018 06:45:58 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:15 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:23 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:23 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:42 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:46:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:47:02 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:47:22 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:02 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:24 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:26 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:26 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:26 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:38 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:40 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:40 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:40 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:41 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:43 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:43 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:44 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:46 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:46 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:48:46 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:49:12 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:49:14 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:49:14 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:49:14 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:49:22 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:49:23 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:50:57 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:51:51 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:51:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:51:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:51:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:52:26 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:52:30 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:52:33 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:52:33 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:52:33 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:53:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:53:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:53:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:53:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:54:01 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:54:05 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:54:20 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:54:20 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 06:54:24 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/myhype/public_html/wlc/app/Helper/functions.php on line 30
+[26-Oct-2018 14:57:11 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/CustomerController.php on line 1191
+[28-Oct-2018 03:47:57 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/CustomerController.php on line 375
+[28-Oct-2018 16:20:42 Asia/Singapore] PHP Fatal error:  Call to a member function format() on string in /home/myhype/public_html/wlc/storage/framework/views/3d0c045fc8ea9b23872e1378eaa2ce3e60c3ab10.php on line 76
+[28-Oct-2018 16:23:17 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Frontend\Carob' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/CustomerController.php on line 286
+[28-Oct-2018 18:38:34 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 303
+[28-Oct-2018 18:38:42 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 303
+[28-Oct-2018 19:21:22 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 303
+[28-Oct-2018 20:14:33 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 303
+[28-Oct-2018 20:14:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 303
+[28-Oct-2018 20:14:46 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 303
+[28-Oct-2018 20:15:14 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 303
+[29-Oct-2018 15:14:22 Asia/Singapore] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 330
+[29-Oct-2018 15:14:23 Asia/Singapore] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 330
+[29-Oct-2018 15:14:23 Asia/Singapore] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 330
+[29-Oct-2018 15:32:41 Asia/Singapore] PHP Parse error:  syntax error, unexpected '|' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmController.php on line 731
+[30-Oct-2018 13:43:01 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Api\User' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Api/DriverController.php on line 37
+[30-Oct-2018 13:43:07 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Api\User' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Api/DriverController.php on line 37
+[30-Oct-2018 17:05:59 Asia/Singapore] PHP Fatal error:  Call to undefined method Spatie\Activitylog\ActivitylogSupervisor::create() in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 221
+[31-Oct-2018 03:10:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 2135
+[31-Oct-2018 03:10:55 Asia/Singapore] PHP Parse error:  syntax error, unexpected ')' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 2135
+[31-Oct-2018 18:51:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:53:30 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:54:56 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:55:24 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[31-Oct-2018 18:55:27 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[31-Oct-2018 18:56:20 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:56:35 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:56:47 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:57:58 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:58:11 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 18:59:34 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 19:04:07 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[31-Oct-2018 19:04:42 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/myhype/public_html/wlc/app/Http/Controllers/Api/FlexmTopupController.php on line 15
+[01-Nov-2018 00:57:10 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/storage/framework/views/fe9b5f96fe0d6189c2c74584bd72f3d25d402119.php on line 71
+[01-Nov-2018 00:58:29 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'options' (T_STRING) in /home/myhype/public_html/wlc/storage/framework/views/fe9b5f96fe0d6189c2c74584bd72f3d25d402119.php on line 113
+[01-Nov-2018 02:03:58 Asia/Singapore] PHP Fatal error:  Call to undefined function App\Http\Controllers\Admin\number_formt() in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/TransactionController.php on line 127
+[01-Nov-2018 02:04:31 Asia/Singapore] PHP Fatal error:  Call to undefined function App\Http\Controllers\Admin\number_formt() in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/TransactionController.php on line 197
+[01-Nov-2018 02:55:32 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Carbon' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/SingxController.php on line 161
+[01-Nov-2018 03:14:37 Asia/Singapore] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/SingxController.php on line 47
+[01-Nov-2018 03:49:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 100
+[01-Nov-2018 03:50:01 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 104
+[01-Nov-2018 16:54:35 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Excel' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/InvoiceController.php on line 83
+[01-Nov-2018 17:26:33 Asia/Singapore] PHP Fatal error:  Call to undefined method stdClass::get() in /home/myhype/public_html/wlc/storage/framework/views/610290dce0ed707d1883a6680e8e0027535db6b5.php on line 95
+[01-Nov-2018 19:30:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/NotificationController.php on line 58
+[01-Nov-2018 19:31:06 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Carbon' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/NotificationController.php on line 60
+[02-Nov-2018 12:28:21 Asia/Singapore] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/myhype/public_html/wlc/storage/framework/views/c3cb4a868d06360b6c21b1b9e77b657511cb794f.php on line 87
+[02-Nov-2018 12:32:29 Asia/Singapore] PHP Fatal error:  Call to a member function format() on string in /home/myhype/public_html/wlc/storage/framework/views/9d877441123b5d89cddfd1d6e2e341d87000aa2d.php on line 75
+[02-Nov-2018 13:57:37 Asia/Singapore] PHP Fatal error:  Call to a member function format() on string in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 325
+[02-Nov-2018 14:04:53 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':' in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 341
+[02-Nov-2018 14:05:08 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 47
+[02-Nov-2018 20:27:38 Asia/Singapore] PHP Parse error:  syntax error, unexpected '$to' (T_VARIABLE) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/TransactionController.php on line 348
+[02-Nov-2018 21:29:32 Asia/Singapore] PHP Fatal error:  Class 'App\Listeners\Feedback' not found in /home/myhype/public_html/wlc/app/Listeners/SendFeedbackListener.php on line 34
+[05-Nov-2018 11:39:16 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 12:08:18 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 12:45:55 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 12:46:10 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 12:48:33 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:18:55 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:18:57 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:20:15 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:20:18 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:20:20 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:23:07 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:37:40 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:37:44 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:42:08 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:42:20 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:43:02 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:51:13 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:51:20 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:52:51 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:56:57 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:57:29 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:57:55 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:58:31 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 13:59:01 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 14:03:08 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 15:02:40 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 15:02:43 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 15:12:49 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 15:12:55 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 15:13:28 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 15:13:30 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[05-Nov-2018 15:13:33 Asia/Singapore] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandlerß' not found in /home/myhype/public_html/wlc/app/Exceptions/Handler.php on line 13
+[06-Nov-2018 01:28:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 291
+[06-Nov-2018 01:29:12 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 291
+[06-Nov-2018 01:29:35 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 291
+[06-Nov-2018 01:30:46 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 291
+[06-Nov-2018 15:49:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 291
+[06-Nov-2018 16:02:49 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 291
+[06-Nov-2018 16:03:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 291
+[06-Nov-2018 16:03:58 Asia/Singapore] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 397
+[06-Nov-2018 17:41:00 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SpuulController.php on line 311
+[06-Nov-2018 17:41:00 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SpuulController.php on line 311
+[06-Nov-2018 17:41:26 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SpuulController.php on line 311
+[06-Nov-2018 17:41:26 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SpuulController.php on line 311
+[06-Nov-2018 17:41:59 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SpuulController.php on line 311
+[06-Nov-2018 20:03:46 Asia/Singapore] PHP Fatal error:  Call to undefined function App\Http\Controllers\Admin\sendSingleLocale() in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/DashboardController.php on line 650
+[08-Nov-2018 22:37:29 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 765
+[08-Nov-2018 22:37:29 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 765
+[08-Nov-2018 22:37:29 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/myhype/public_html/wlc/app/Http/Controllers/Api/MerchantController.php on line 765
+[10-Nov-2018 15:53:09 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Auth\UserProfile' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Auth/AppLoginController.php on line 84
+[13-Nov-2018 17:56:31 Asia/Singapore] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/myhype/public_html/wlc/routes/api.php on line 25
+[13-Nov-2018 17:56:31 Asia/Singapore] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/myhype/public_html/wlc/routes/api.php on line 25
+[13-Nov-2018 17:56:32 Asia/Singapore] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/myhype/public_html/wlc/routes/api.php on line 25
+[13-Nov-2018 17:57:18 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[13-Nov-2018 17:58:32 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[13-Nov-2018 19:25:55 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[13-Nov-2018 19:27:23 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[13-Nov-2018 19:31:26 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[13-Nov-2018 19:35:58 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[13-Nov-2018 19:37:25 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[13-Nov-2018 19:38:18 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 576
+[14-Nov-2018 03:41:13 Asia/Singapore] PHP Parse error:  syntax error, unexpected ']' in /home/myhype/public_html/wlc/routes/web.php on line 25
+[14-Nov-2018 07:56:52 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 07:56:52 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 07:56:52 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:20:44 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:20:44 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:20:44 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:22:05 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:22:05 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:22:05 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:24:10 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:24:10 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:24:10 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:26:59 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:26:59 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:26:59 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:32:09 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:32:09 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:32:09 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:33:00 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:33:00 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:33:00 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:35:59 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:35:59 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 09:35:59 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 10:42:54 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 10:42:54 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 10:42:54 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 10:47:06 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 10:47:06 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 10:47:06 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 11:20:51 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 11:20:51 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 11:20:51 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 11:59:30 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 11:59:30 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 11:59:30 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:03:57 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:03:57 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:03:57 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:06:26 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:06:26 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:06:26 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:19:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:19:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:19:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:21:11 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:21:11 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:21:11 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:22:45 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:22:45 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:22:45 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:39:07 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:39:07 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 12:39:07 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 14:14:53 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 14:14:53 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 14:14:53 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 14:33:13 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 14:33:13 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 14:33:13 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 14:42:25 Asia/Singapore] PHP Fatal error:  Cannot use App\Models\FlexmHtml as FlexmHtml because the name is already in use in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/FrontendController.php on line 14
+[14-Nov-2018 14:44:20 Asia/Singapore] PHP Fatal error:  Cannot use App\Models\FlexmHtml as FlexmHtml because the name is already in use in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/FrontendController.php on line 14
+[14-Nov-2018 14:44:20 Asia/Singapore] PHP Fatal error:  Cannot use App\Models\FlexmHtml as FlexmHtml because the name is already in use in /home/myhype/public_html/wlc/app/Http/Controllers/Frontend/FrontendController.php on line 14
+[14-Nov-2018 15:37:46 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 15:37:46 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 15:37:46 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 15:38:25 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on string in /home/myhype/public_html/wlc/app/Helper/functions.php on line 606
+[14-Nov-2018 15:46:39 Asia/Singapore] PHP Fatal error:  Call to a member function getClientOriginalName() on null in /home/myhype/public_html/wlc/app/Helper/functions.php on line 606
+[14-Nov-2018 16:29:07 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 16:29:21 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 16:29:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 16:29:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 17:55:38 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 17:55:39 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 17:55:39 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:00:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:00:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:00:22 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:06:33 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:06:33 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:06:33 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:06:44 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:06:44 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:06:44 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:24:04 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:24:04 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:24:04 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:33:51 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:33:51 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:33:51 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:41:34 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:41:34 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:41:34 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:42:03 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:42:03 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:42:03 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:55:02 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:55:02 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 18:55:02 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 19:16:32 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 19:16:32 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 19:16:33 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 19:49:28 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 19:49:28 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[14-Nov-2018 19:49:28 Asia/Singapore] PHP Fatal error:  Call to undefined method ErrorException::getStatusCode() in /home/myhype/public_html/wlc/app/Http/Middleware/authJWT.php on line 38
+[15-Nov-2018 01:31:19 Asia/Singapore] PHP Parse error:  syntax error, unexpected ':', expecting '(' in /home/myhype/public_html/wlc/storage/framework/views/8dade1cf8888411e5228942759596fe2794d4485.php on line 359
+[15-Nov-2018 19:37:11 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/UserController.php on line 179
+[16-Nov-2018 13:13:45 Asia/Singapore] PHP Parse error:  syntax error, unexpected '', ['' (T_CONSTANT_ENCAPSED_STRING) in /home/myhype/public_html/wlc/storage/framework/views/c669aa84a269b085b3cbaffe055c66f7e84b11b3.php on line 20
+[17-Nov-2018 02:26:20 Asia/Singapore] PHP Fatal error:  Call to a member function where() on array in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/OrderController.php on line 185
+[21-Nov-2018 18:19:13 Asia/Singapore] PHP Parse error:  syntax error, unexpected ';' in /home/myhype/public_html/wlc/storage/framework/views/3192d83ce55793d05458e31b2ef5196a1afdb62f.php on line 106
+[26-Nov-2018 09:59:30 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 583
+[26-Nov-2018 17:16:10 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 583
+[27-Nov-2018 10:33:15 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 583
+[27-Nov-2018 11:15:32 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 582
+[27-Nov-2018 11:21:24 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 583
+[27-Nov-2018 11:26:58 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 583
+[27-Nov-2018 11:43:04 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 583
+[27-Nov-2018 11:59:45 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 582
+[27-Nov-2018 12:00:19 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 583
+[27-Nov-2018 12:02:00 Asia/Singapore] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Cell.php on line 582
+[27-Nov-2018 12:06:34 Asia/Singapore] PHP Fatal error:  Allowed memory size of 262144 bytes exhausted (tried to allocate 1296192 bytes) in /home/myhype/public_html/wlc/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 105
+[03-Dec-2018 09:52:39 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet.php on line 755
+[03-Dec-2018 10:00:11 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/Font.php on line 252
+[03-Dec-2018 12:32:50 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 173
+[03-Dec-2018 12:33:27 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel.php on line 1110
+[03-Dec-2018 12:35:48 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/phpoffice/phpexcel/Classes/PHPExcel.php on line 1065
+[06-Dec-2018 19:39:52 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[06-Dec-2018 19:51:29 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[06-Dec-2018 19:51:35 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[06-Dec-2018 19:51:38 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[06-Dec-2018 19:51:53 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[10-Dec-2018 16:22:07 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'food' (T_STRING) in /home/myhype/public_html/wlc/storage/framework/views/12659202777bd1d3f0e496bd048741cf73061bf1.php on line 122
+[10-Dec-2018 16:22:15 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'food' (T_STRING) in /home/myhype/public_html/wlc/storage/framework/views/12659202777bd1d3f0e496bd048741cf73061bf1.php on line 122
+[10-Dec-2018 16:22:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'food' (T_STRING) in /home/myhype/public_html/wlc/storage/framework/views/12659202777bd1d3f0e496bd048741cf73061bf1.php on line 122
+[10-Dec-2018 16:22:31 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'food' (T_STRING) in /home/myhype/public_html/wlc/storage/framework/views/12659202777bd1d3f0e496bd048741cf73061bf1.php on line 122
+[10-Dec-2018 16:22:33 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'food' (T_STRING) in /home/myhype/public_html/wlc/storage/framework/views/12659202777bd1d3f0e496bd048741cf73061bf1.php on line 122
+[10-Dec-2018 16:22:36 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'food' (T_STRING) in /home/myhype/public_html/wlc/storage/framework/views/12659202777bd1d3f0e496bd048741cf73061bf1.php on line 122
+[14-Dec-2018 13:19:24 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Auth\JWTAuth' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Auth/AppRegisterController.php on line 197
+[14-Dec-2018 13:19:28 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Auth\JWTAuth' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Auth/AppRegisterController.php on line 197
+[14-Dec-2018 13:19:40 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Auth\JWTAuth' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Auth/AppRegisterController.php on line 197
+[14-Dec-2018 13:21:23 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Auth\JWTAuth' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Auth/AppRegisterController.php on line 197
+[15-Dec-2018 07:25:05 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[15-Dec-2018 07:27:06 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[17-Dec-2018 01:16:51 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[18-Dec-2018 01:03:05 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Feedback' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/ContactController.php on line 92
+[27-Dec-2018 17:35:41 Asia/Singapore] PHP Fatal error:  Class 'App\Models\UserProfileTmp' not found in /home/myhype/public_html/wlc/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 7
+[04-Jan-2019 09:05:15 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[04-Jan-2019 18:35:56 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[07-Jan-2019 09:18:32 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[09-Jan-2019 15:28:42 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[10-Jan-2019 11:53:25 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[16-Jan-2019 15:46:10 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[21-Jan-2019 13:52:40 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[21-Jan-2019 16:30:42 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[21-Jan-2019 16:39:27 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[21-Jan-2019 17:07:11 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 508
+[25-Jan-2019 15:05:58 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[29-Jan-2019 16:52:14 Asia/Singapore] PHP Fatal error:  Class 'App\Models\Carbon' not found in /home/myhype/public_html/wlc/app/Models/UserAuto.php on line 37
+[29-Jan-2019 16:57:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/storage/framework/views/9a26f1f11de4c97c043a28ea7de9a7255ca512ca.php on line 314
+[29-Jan-2019 16:57:56 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/storage/framework/views/9a26f1f11de4c97c043a28ea7de9a7255ca512ca.php on line 314
+[29-Jan-2019 16:57:57 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/storage/framework/views/9a26f1f11de4c97c043a28ea7de9a7255ca512ca.php on line 314
+[29-Jan-2019 16:58:02 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/storage/framework/views/9a26f1f11de4c97c043a28ea7de9a7255ca512ca.php on line 314
+[29-Jan-2019 16:58:04 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/storage/framework/views/9a26f1f11de4c97c043a28ea7de9a7255ca512ca.php on line 314
+[29-Jan-2019 16:58:06 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/storage/framework/views/9a26f1f11de4c97c043a28ea7de9a7255ca512ca.php on line 314
+[29-Jan-2019 16:58:18 Asia/Singapore] PHP Parse error:  syntax error, unexpected end of file in /home/myhype/public_html/wlc/storage/framework/views/9a26f1f11de4c97c043a28ea7de9a7255ca512ca.php on line 314
+[04-Feb-2019 22:23:40 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[04-Feb-2019 22:45:13 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[08-Feb-2019 15:20:54 Asia/Singapore] PHP Fatal error:  Call to a member function count() on array in /home/myhype/public_html/wlc/storage/framework/views/5b6831cb628e04a5655be8ea6aca29d85436d097.php on line 78
+[08-Feb-2019 15:24:54 Asia/Singapore] PHP Fatal error:  Call to a member function count() on array in /home/myhype/public_html/wlc/storage/framework/views/5b6831cb628e04a5655be8ea6aca29d85436d097.php on line 78
+[15-Feb-2019 16:02:57 Asia/Singapore] PHP Fatal error:  Call to a member function update() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 1126
+[15-Feb-2019 16:02:58 Asia/Singapore] PHP Fatal error:  Call to a member function update() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/PayoutController.php on line 1126
+[18-Feb-2019 19:34:22 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[18-Feb-2019 20:16:45 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[19-Feb-2019 19:37:37 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[26-Feb-2019 16:20:39 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 353
+[27-Feb-2019 14:28:53 Asia/Singapore] PHP Fatal error:  Call to a member function format() on string in /home/myhype/public_html/wlc/storage/framework/views/c3cb4a868d06360b6c21b1b9e77b657511cb794f.php on line 87
+[27-Feb-2019 14:31:13 Asia/Singapore] PHP Fatal error:  Call to a member function format() on string in /home/myhype/public_html/wlc/storage/framework/views/c3cb4a868d06360b6c21b1b9e77b657511cb794f.php on line 87
+[27-Feb-2019 14:38:40 Asia/Singapore] PHP Fatal error:  Call to a member function format() on string in /home/myhype/public_html/wlc/storage/framework/views/c3cb4a868d06360b6c21b1b9e77b657511cb794f.php on line 87
+[27-Feb-2019 14:41:06 Asia/Singapore] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/myhype/public_html/wlc/storage/framework/views/c3cb4a868d06360b6c21b1b9e77b657511cb794f.php on line 87
+[06-Mar-2019 15:11:54 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[06-Mar-2019 16:22:08 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[06-Mar-2019 17:31:00 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[06-Mar-2019 17:35:33 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[06-Mar-2019 20:44:55 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[18-Mar-2019 15:23:02 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[25-Mar-2019 18:29:14 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 213
+[25-Mar-2019 18:32:48 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 213
+[27-Mar-2019 10:49:46 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 353
+[27-Mar-2019 10:49:51 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 353
+[27-Mar-2019 10:49:54 Asia/Singapore] PHP Fatal error:  Call to a member function format() on null in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/RevenueController.php on line 353
+[03-Apr-2019 14:23:06 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[03-Apr-2019 14:32:48 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[03-Apr-2019 20:35:15 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[03-Apr-2019 21:23:08 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[03-Apr-2019 21:34:29 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[04-Apr-2019 13:26:34 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[05-Apr-2019 13:19:18 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[05-Apr-2019 13:19:18 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[05-Apr-2019 14:05:45 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[05-Apr-2019 14:52:28 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[12-Apr-2019 22:28:41 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 219
+[12-Apr-2019 22:28:42 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 219
+[17-Apr-2019 20:08:34 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[30-Apr-2019 14:39:31 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/myhype/public_html/wlc/app/Http/Controllers/Admin/DashboardController.php on line 43
+[30-Apr-2019 15:10:28 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[30-Apr-2019 15:18:27 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[30-Apr-2019 16:07:40 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[30-Apr-2019 17:06:18 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[30-Apr-2019 17:10:08 Asia/Singapore] Resolving timed out after 5001 milliseconds
+[30-Apr-2019 17:44:01 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[30-Apr-2019 18:09:22 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[15-May-2019 17:16:34 Asia/Singapore] PHP Fatal error:  Class 'App\Http\Controllers\Api\File' not found in /home/myhype/public_html/wlc/app/Http/Controllers/Api/SingxController.php on line 555
+[21-May-2019 15:28:19 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[21-May-2019 16:16:13 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[21-May-2019 16:41:52 Asia/Singapore] Resolving timed out after 5001 milliseconds
+[21-May-2019 19:06:37 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 13:19:06 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 13:29:56 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 13:36:42 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 13:47:13 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 13:58:27 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 14:01:23 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 14:14:33 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 14:28:33 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 14:41:09 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 16:53:35 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 17:07:17 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 17:16:10 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 17:55:50 Asia/Singapore] Resolving timed out after 5001 milliseconds
+[22-May-2019 18:12:52 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[22-May-2019 22:01:13 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[24-Jun-2019 11:51:27 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/guzzlehttp/psr7/src/MessageTrait.php on line 181
+[24-Jun-2019 13:56:41 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+[24-Jun-2019 14:04:57 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/brozot/laravel-fcm/src/Response/DownstreamResponse.php on line 104
+[15-Jul-2019 17:59:49 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php on line 94
+[15-Jul-2019 18:02:27 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/monolog/monolog/src/Monolog/Logger.php on line 323
+[15-Jul-2019 18:05:54 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 805
+[15-Jul-2019 18:08:41 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Database/Grammar.php on line 96
+[30-Jul-2019 15:40:22 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/helpers.php on line 234
+[30-Jul-2019 16:29:47 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 834
+[30-Jul-2019 16:34:38 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php on line 188
+[30-Jul-2019 16:38:18 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 820
+[30-Jul-2019 16:42:00 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 130
+[30-Jul-2019 16:45:03 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 151
+[07-Aug-2019 20:19:35 Asia/Singapore] Resolving timed out after 5000 milliseconds
+[08-Aug-2019 12:48:57 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php on line 732
+[23-Aug-2019 13:02:24 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 77
+[19-Sep-2019 10:46:49 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 219
+[19-Sep-2019 10:50:42 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 213
+[19-Sep-2019 10:51:18 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 213
+[19-Sep-2019 11:00:06 Asia/Singapore] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myhype/public_html/wlc/vendor/laravel/framework/src/Illuminate/Support/Arr.php on line 213

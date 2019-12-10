@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Meta, title, CSS, favicons, etc. -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Custom Theme Style -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Food Merchant</title>
+
+        <style>
+        .list-bg a, .order-details a{ background:inherit !important; padding:0;}
+        </style>
+    </head>
+    <body>
+
+        <header class="header">
+          <h2>Edit Profile</h2>
+        </header>
+
+        <div class="page-content">
+        <div class="profile">
+        <div class="user-info">
+        <a href="#"><img src="images/img-profile.jpg" alt=""></a>
+            <!-- <h3>Jumbo Seafood</h3> -->
+            <p>{{ $auth_user->email }}</p>
+        </div>
+        <form method="POST" action="{{ route('merchant.profile.edit') }}">
+
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Restaurant Name" name="name" value="{{ $restaurant->name }}">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Fin No" name="fin_no" value="{{ $restaurant->fin_no }}">
+            </div>
+            <div class="form-group">
+              <input type="time" class="form-control icon-time" placeholder="Opening Time" name="open_at" value="{{ $restaurant->open_at }}">
+            </div>
+            <div class="form-group">
+              <input type="time" class="form-control icon-time" placeholder="Closing Time" name="closes_at" value="{{ $restaurant->closes_at }}">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone No" name="phone_no" value="{{ $restaurant->phone_no }}">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Address" name="address" value="{{ $restaurant->address }}">
+            </div>
+            <div class="text-center mg-top">
+         <button type="submit" class="btn btn-default">Submit</button>
+         </div>
+          </form>
+
+        </div>
+        </div>
+
+        <footer class="footer">
+          <ul>
+            <li><a class="active" href="{{ route('merchant.home') }}"><span><img src="images/icon-dashboard.png" alt=""></span>Dashboard</a></li>
+            <li><a href="{{ route('merchant.profile.view') }}"><span><img src="images/icon-profile-1.png" alt=""></span>Profile</a></li>
+            <li><a href="{{ route('merchant.menu.list') }}"><span><img src="images/icon-management-1.png" alt=""></span>Management</a></li>
+            <li><a href="{{ route('merchant.account.list') }}"><span><img src="images/icon-account-1.png" alt=""></span>Account</a></li>
+            <li><a href="{{ route('logout') }}"><span><img src="images/icon-logout-1.png" alt=""></span>Logout</a>
+            </li>
+          </ul>
+        </footer>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>

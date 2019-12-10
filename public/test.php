@@ -1,0 +1,1 @@
+<?php echo number_format(4.99*2.5/100, 4, '.','') ?>
