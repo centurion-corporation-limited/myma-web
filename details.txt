@@ -1,0 +1,45 @@
+
+AWS Access
+User: awshosting@myma.app
+Password: Myma@888
+
+MyMA Live server
+    Access server with Command:  ssh -i "aws-pem.myma-prod.pem" ubuntu@ec2-18-138-137-202.ap-southeast-1.compute.amazonaws.com
+    Database Access
+        URL: https://wlc.myma.app/phpmyadmin
+        User: myma
+        Pwd: Myma$2019
+    Databases: 
+        myhype_db
+        myhype_merchant
+        myhype_portal
+
+
+MyMA UAT server 
+    Access server with Command: ssh -i "aws-pem.myma-uat.pem" ubuntu@ec2-18-140-141-175.ap-southeast-1.compute.amazonaws.com
+    Database Access
+        URL: https://uat.myma.app/phpmyadmin
+        User: root
+        Pwd: Myma@uat
+    Databases: 
+        myhype_db
+        myhype_merchant
+        myhype_portal
+
+
+Steps to Setup
+1. clone repository
+2. duplicate contents of .env.example file and name the file .env.
+3. Clone the Databases: myhype_db, myhype_merchant and myhype_portal
+4. execute the following commands:
+    - composer install
+    - php artisan migrate
+5. Install required dependencies based on the server environment.
+
+Steps for Change Request
+1. Whenever a change request is provided, The changes are done in local.
+2. After testing, only the changes are moved to UAT / Live(manually).
+3. If any new classes are created, the following command is used
+        composer dump-autoload (As of now the project runs on Carbon 1 which is deprecated, as an alternative we are using composer update, this has to be fixed in future)
+4. If the changes are not reflected and are cached, the following command is used
+        php artisan cache:clear
