@@ -1,14 +1,8 @@
 
-AWS Access
-User: awshosting@myma.app
-Password: Myma@888
-
 MyMA Live server
     Access server with Command:  ssh -i "aws-pem.myma-prod.pem" ubuntu@ec2-18-138-137-202.ap-southeast-1.compute.amazonaws.com
     Database Access
         URL: https://wlc.myma.app/phpmyadmin
-        User: myma
-        Pwd: Myma$2019
     Databases: 
         myhype_db
         myhype_merchant
@@ -19,8 +13,6 @@ MyMA UAT server
     Access server with Command: ssh -i "aws-pem.myma-uat.pem" ubuntu@ec2-18-140-141-175.ap-southeast-1.compute.amazonaws.com
     Database Access
         URL: https://uat.myma.app/phpmyadmin
-        User: root
-        Pwd: Myma@uat
     Databases: 
         myhype_db
         myhype_merchant
