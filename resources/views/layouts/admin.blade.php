@@ -568,6 +568,14 @@ function googleTranslateElementInit() {
                   </li>
                   @endif
 
+                  @if($user->can('view.report-revenue') )
+                  <li>
+                    <a href="{{ route('admin.redeem.report') }}">
+                      <i class="fa fa-dollar"></i>Redeem report </a>
+                    </a>
+                  </li>
+                  @endif
+
                   @if($user->can('view.transaction-list-singx') )
                   <li><a><i class="fa fa-map-signs"></i>Singx<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
