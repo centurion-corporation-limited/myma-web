@@ -20,6 +20,7 @@ use App\Http\Controllers\Controller;
 use Auth,  Carbon\Carbon;
 use Activity, Excel;
 use PHPExcel_Worksheet_Drawing;
+use Log;
 
 class UserController extends Controller
 {
@@ -100,11 +101,41 @@ class UserController extends Controller
             });
         }
         $dorm = $request->input('dormitory_id');
-        if ($dorm != '' && $dorm != 0) {
+        if($dorm == 6){
+            $items->whereHas('profile', function ($q) use ($dorm) {
+                $q->where('dormitory_id', 0)->orWhere('dormitory_id', $dorm)->orWhereNull('dormitory_id');
+            });
+        } else if ($dorm != '' && $dorm != 0) {
             $items->whereHas('profile', function ($q) use ($dorm) {
                 $q->where('dormitory_id', $dorm);
             });
         }
+        $gender = $request->input('gender');
+        if ($gender != '') {
+            $items->whereHas('profile', function ($q) use ($gender) {
+                $q->where('gender', $gender);
+            });
+        }
+        $signup_to_date = Carbon::now()->toDateString();
+        $signup_from_date = '';
+        $signup_from = $request->input('signup_end');
+        $signup_to = $request->input('signup_end'); 
+        if($signup_from != '' && $signup_to != ''){
+            $signup_from_date = $signup_from = Carbon::parse($signup_from)->toDateString();
+            $signup_to_date = $signup_to = Carbon::parse($signup_to)->toDateString();
+            $items->whereDate('created_at', '>=', $signup_from)->whereDate('created_at', '<=', $signup_to);
+        }
+        //Date Range For Updation
+        $update_to_date = Carbon::now()->toDateString();
+        $update_from_date = '';
+        $update_from = $request->input('update_start');
+        $update_to = $request->input('update_end'); 
+        if($update_from != '' && $update_to != '' ){
+            $update_from_date = $update_from = Carbon::parse($update_from)->toDateString();
+            $update_to_date = $update_to = Carbon::parse($update_to)->toDateString();
+            $items->whereDate('updated_at', '>=', $update_from)->whereDate('updated_at', '<=', $update_to);
+        }     
+
         if ($searchValue = $request->input('email')) {
             $searched = User::all()->filter(function($record) use($searchValue) {
                         $email = $record->email;
@@ -220,7 +251,11 @@ class UserController extends Controller
             });
         }
         $dorm = $request->input('dormitory_id');
-        if ($dorm != '' && $dorm != 0) {
+        if($dorm == 6){
+          $items->whereHas('profile', function ($q) use ($dorm) {
+              $q->where('dormitory_id', 0)->orWhere('dormitory_id', $dorm)->orWhereNull('dormitory_id');
+          });
+        } else if ($dorm != '' && $dorm != 0) {
             $items->whereHas('profile', function ($q) use ($dorm) {
                 $q->where('dormitory_id', $dorm);
             });
@@ -399,11 +434,41 @@ class UserController extends Controller
       }
 
       $dorm = $request->input('dormitory_id');
-      if ($dorm != '' && $dorm != 0) {
+      if($dorm == 6){
+        $items->whereHas('profile', function ($q) use ($dorm) {
+            $q->where('dormitory_id', 0)->orWhere('dormitory_id', $dorm)->orWhereNull('dormitory_id');
+        });
+      } else if ($dorm != '' && $dorm != 0) {
           $items->whereHas('profile', function ($q) use ($dorm) {
               $q->where('dormitory_id', $dorm);
           });
       }
+
+      $gender = $request->input('gender');
+      if ($gender != '') {
+          $items->whereHas('profile', function ($q) use ($gender) {
+              $q->where('gender', $gender);
+          });
+      }
+        $signup_to_date = Carbon::now()->toDateString();
+        $signup_from_date = '';
+        $signup_from = $request->input('signup_end');
+        $signup_to = $request->input('signup_end'); 
+        if($signup_from != '' && $signup_to != ''){
+            $signup_from_date = $signup_from = Carbon::parse($signup_from)->toDateString();
+            $signup_to_date = $signup_to = Carbon::parse($signup_to)->toDateString();
+            $items->whereDate('created_at', '>=', $signup_from)->whereDate('created_at', '<=', $signup_to);
+        }
+        //Date Range For Updation
+        $update_to_date = Carbon::now()->toDateString();
+        $update_from_date = '';
+        $update_from = $request->input('update_start');
+        $update_to = $request->input('update_end'); 
+        if($update_from != '' && $update_to != '' ){
+            $update_from_date = $update_from = Carbon::parse($update_from)->toDateString();
+            $update_to_date = $update_to = Carbon::parse($update_to)->toDateString();
+            $items->whereDate('updated_at', '>=', $update_from)->whereDate('updated_at', '<=', $update_to);
+        }     
 
       // if($role_id == 'app-user'){
           // $items->groupBy('fin_no');
@@ -414,8 +479,9 @@ class UserController extends Controller
       $paginate_data = $request->except('page');
 
       $dorm = Dormitory::pluck('name' ,'id')->toArray();
-      $dorm[0] = 'Select Dormitory';
+      $dorm[0] = 'All Address';
       ksort($dorm);
+      array_push($dorm, 'Other Address');
 
       $goods[''] = 'Select Good for wallet';
       $goods['Y'] = 'Yes';
@@ -481,7 +547,11 @@ class UserController extends Controller
       }
 
       $dorm = $request->input('dormitory_id');
-      if ($dorm != '' && $dorm != 0) {
+      if($dorm == 6){
+        $items->whereHas('profile', function ($q) use ($dorm) {
+            $q->where('dormitory_id', 0)->orWhere('dormitory_id', $dorm)->orWhereNull('dormitory_id');
+        });
+      } else if ($dorm != '' && $dorm != 0) {
           $items->whereHas('profile', function ($q) use ($dorm) {
               $q->where('dormitory_id', $dorm);
           });
@@ -493,6 +563,7 @@ class UserController extends Controller
       $dorm = Dormitory::pluck('name' ,'id')->toArray();
       $dorm[0] = 'Select Dormitory';
       ksort($dorm);
+      array_push($dorm, 'Other Address');
 
       return view('admin.user.flexm_registered', compact('users', 'auth_user', 'paginate_data', 'role_id', 'dorm'));
     }
@@ -527,6 +598,7 @@ class UserController extends Controller
         $dorm = Dormitory::pluck('name' ,'id')->toArray();
         $dorm[0] = 'Select Dormitory';
         ksort($dorm);
+        array_push($dorm, 'Other Address');
         return view('admin.user.add', compact('auth_user', 'roles', 'dorm'));
     }
 
@@ -670,7 +742,8 @@ class UserController extends Controller
         UserProfile::create($data_profile);
         Activity::log('New user created - #'.$user->id.' by '. $auth_user->name );
 
-        event(new AccountCreated($user->id, $pass));
+        if($data['email'])
+            event(new AccountCreated($user->id, $pass));
         // \Event::fire('user.inform_account', [$user->id, $pass]);
 
         return redirect()->route('admin.user.role-list')->with([
@@ -699,6 +772,7 @@ class UserController extends Controller
             $dorm = Dormitory::pluck('name' ,'id')->toArray();
             $dorm[0] = 'Select Dormitory';
             ksort($dorm);
+            array_push($dorm, 'Other Address');
 
             if($user->profile){
                 if($user->profile->wp_expiry == '0000-00-00'){
@@ -741,7 +815,11 @@ class UserController extends Controller
 
             if($user && $user->profile && $user->profile->fin_no != ''){
               try{
+                  Log::info('1-------');
+                  Log::info($user->profile->fin_no);
                 $user->profile->fin_no = decrypt($user->profile->fin_no);
+                    Log::info('2-------');
+                    Log::info($user->profile->fin_no);
               }catch(DecryptException $e){
 
               }

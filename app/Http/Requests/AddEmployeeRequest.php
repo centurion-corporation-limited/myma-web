@@ -36,12 +36,17 @@ class AddEmployeeRequest extends FormRequest
         ];
 
         if($role == 'app-user'){
+            $data['dormitory_id'] = 'required|not_in:0';
             $data['fin_no'] = 'required';
-            $data['dob'] = 'required|date|olderThan:18';
+            $data['phone'] = 'required';
+            $data['street_address'] = 'required';
+            $data['zip_code'] = 'required';
+            $data['wp_expiry'] = 'required | date';
             $data['gender'] = 'required';
-            $data['work_permit_front'] = 'required_with:fin_no';
-            $data['work_permit_back'] = 'required_with:fin_no';
-            $data['wp_expiry'] = 'date|nullable';
+            $data['dob'] = 'required|date|olderThan:18';
+            // $data['work_permit_front'] = 'required_with:fin_no';
+            // $data['work_permit_back'] = 'required_with:fin_no';
+            //$data['wp_expiry'] = 'date|nullable';
         }else{
             $data['email'] = 'required|email|max:255';
         }
@@ -64,6 +69,8 @@ class AddEmployeeRequest extends FormRequest
 	public function messages(){
 		return [
             // 'emp_id.required' => "The Employee Id field is required.",
+            'zip_code.required' => "The postal code field is required.",
+            'dob.required' => "The date of birth field is required.",
             'password.required' => "The password must contain a Uppercase letter, a lowercase letter, a digit, a special character and minimum length should be 8.",
             'dob.older_than' => "User should be 18 years old.",
             

@@ -47,6 +47,12 @@
 														@if(Request::input('role') == 'app-user')
 														<div class="row flex-row transaction-form">
                                 <div class="input-group">
+                                {!!Form::select('gender', [''=>'Select Gender', 'male' => 'Male', 'female' => 'Female'], '', ['class' => 'form-control'])!!}
+                                </div>
+                            </div>
+
+														<div class="row flex-row transaction-form">
+                                <div class="input-group">
                                 <input type="text" placeholder="Mobile No" name="phone" value="{{ Request::input('phone') }}" class="form-control">
                                 </div>
                             </div>
@@ -97,6 +103,7 @@
                           <input type="hidden" name="dormitory_id" value="{{ Request::input('dormitory_id') }}" >
                           <input type="hidden" name="fin_no" value="{{ Request::input('fin_no') }}" >
                           <input type="hidden" name="phone" value="{{ Request::input('phone') }}" >
+                          <input type="hidden" name="gender" value="{{ Request::input('gender') }}" >
                           <input type="hidden" name="good_for_wallet" value="{{ Request::input('good_for_wallet') }}" >
 						  <input type="hidden" name="updated_at" value="{{ Request::input('updated_at') }}" >
                           <button class="btn btn-success" type="submit">Export</button>
