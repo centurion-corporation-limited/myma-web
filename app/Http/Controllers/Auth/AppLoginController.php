@@ -14,6 +14,8 @@ use Activity, App\User;
 use App\Models\LoginHistory;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Contracts\Encryption\DecryptException;
+use App\Models\RedeemUser;
+use GuzzleHttp\Client;
 
 class AppLoginController extends Controller
 {
@@ -83,6 +85,8 @@ class AppLoginController extends Controller
         }else{
          //   return response()->json(['status' => 'error', 'data' => "Waiting for launch", 'message' => 'Waiting for launch'], 401);    
         }
+        $redeemTouch = RedeemUser::where('mobile',$credentials['username'])->where('type','TOUCH')->count(); 
+        $redeemTouchCredited = RedeemUser::where('mobile',$credentials['username'])->where('type','TOUCH')->where('status','credit_successful')->count(); 
         
         
         $credentials['email'] = strtolower($credentials['username']);
@@ -185,6 +189,9 @@ class AppLoginController extends Controller
                 'type' => $type,
                 'flexm' => $user->flexm_account,
                 'number_verified' => $user->number_verified == ""?0:$user->number_verified,
+                'isTouchRedeemed' => $redeemTouchCredited  > 0 ? true:false,
+                'isTouchRequested' => $redeemTouch > 0 ? true:false,
+                'isTouchActive' => true
               ],
               'message' => 'LOGIN_SUCCESS'
 
@@ -368,6 +375,111 @@ class AppLoginController extends Controller
         return response()->json(['status' => 'error', 'data' => $e->getMessage(), 'message' => 'TOKEN_EXPIRED'], $e->getStatusCode());
 
       }
+    }
+    
+
+
+    /*public function redeem(Request $request)
+    {  
+        try{
+            $token = $request->input('token');
+            $type = $request->input('type');
+
+            $request_user = JWTAuth::toUser($token);
+            $request_name=$request_user->name;
+            $request_userID=$request_user->id;
+
+            $user_profile = UserProfile::where('user_id', $request_userID)->first();  
+            $request_mobile=$user_profile->phone;
+
+            if($type == 'TOUCH'){
+                $touchUserCount = RedeemUser::where('type',$type)->count();
+                if($touchUserCount > 50000) {
+                    return response()->json(['status' => 'error', 'data' => "", 'message' => 'Redemption has fully redeem. Once again Thank You for your hard work'], 200);
+                }
+            }
+            $redeemUser = RedeemUser::where('name',$request_name)->where('mobile',$request_mobile)->where('user_id', $request_userID)->where('type',$type)->count(); 
+            if($redeemUser > 0){
+                return response()->json(['status' => 'error', 'data' => "", 'message' => 'User already redeemed for type '.$type], 200);
+            } else{  
+                $user = RedeemUser::create([              
+                        'user_id'       => $request_userID, 
+                        'ih_user_id'    => $request->input('ih_user_id'),
+                        'name'          => $request_name,
+                        'mobile'        => $request_mobile,
+                        'type'          => $type,
+                        'fin_no'          => $user_profile->fin_no,
+                        'click_redeem'   => 'yes',
+                        //'click_date' => \Carbon\Carbon::now()->toDateTimeString(),
+                        'status'          => 'redeem_successful',
+                    ]);
+                $user->save();    
+                return response()->json(['status' => 'success', 'data' => $user, 'message' => 'User redeemed successfully for type '.$type], 200);
+            }
+        }catch(JWTException $e){          
+            return response()->json(['status' => 'error', 'data' => NULL, 'message' => 'Token Missing or Incorrect'], $e->getStatusCode());
+        }
+    }*/
+
+
+    public function redeem(Request $request)
+    {  
+        try{
+            $token = $request->input('token');
+            $type = $request->input('type');
+
+            $request_user = JWTAuth::toUser($token);
+            $request_name=$request_user->name;
+            $request_userID=$request_user->id;
+
+            $user_profile = UserProfile::where('user_id', $request_userID)->first();  
+            $request_mobile=$user_profile->phone;
+
+            if($type == 'TOUCH'){
+                $touchUserCount = RedeemUser::where('type',$type)->count();
+                if($touchUserCount > 50000) {
+                    return response()->json(['status' => 'error', 'data' => "", 'message' => 'Redemption has fully redeem. Once again Thank You for your hard work'], 200);
+                }
+            }
+
+            $redeemFinExists = RedeemUser::where('fin_no',$user_profile->fin_no)->count(); 
+            $redeemUser = RedeemUser::where('ih_user_id',$request->input('ih_user_id'))->count(); 
+
+            if($redeemUser > 0){
+                return response()->json(['status' => 'error', 'data' => "", 'message' => 'User already redeemed for type '.$type], 200);
+            } elseif($redeemFinExists > 0){
+                return response()->json(['status' => 'error', 'data' => "", 'message' => 'FIN already redeemed for type '.$type], 200);
+            }else{ 
+                $client = new Client();
+                $data = [];
+                $result = $client->get('https://wallet.flexm.sg/api/user/user_id/'.$request->input('ih_user_id'));
+                $code = $result->getStatusCode(); // 200
+                $reason = $result->getReasonPhrase(); // OK
+                if($code == "200" && $reason == "OK"){
+                    $body = $result->getBody();
+                    $content = json_decode($body->getContents());
+                    $eWallet_mobile = $content->mobile;
+                }else{
+                    return response()->json(['status' => 'error', 'data' => "", 'message' => 'Mobile not available in FlexM eWallet'], 200);
+                }    
+
+                $user = RedeemUser::create([              
+                        'user_id'       => $request_userID, 
+                        'ih_user_id'    => $request->input('ih_user_id'),
+                        'name'          => $request_name,
+                        'mobile'        => $eWallet_mobile,
+                        'myma_mobile'        => $request_mobile,
+                        'type'          => $type,
+                        'fin_no'          => $user_profile->fin_no,
+                        'click_redeem'   => 'yes',
+                        'status'          => 'redeem_successful',
+                    ]);
+                $user->save();    
+                return response()->json(['status' => 'success', 'data' => $user, 'message' => 'User redeemed successfully for type '.$type], 200);
+            }
+        }catch(JWTException $e){          
+            return response()->json(['status' => 'error', 'data' => NULL, 'message' => 'Token Missing or Incorrect'], $e->getStatusCode());
+        }
     }
 
 }

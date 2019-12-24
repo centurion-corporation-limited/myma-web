@@ -35,7 +35,7 @@ table th, table tr{
               </div>
 
               <div class="form-group hide dorm">
-                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="full-name">Dormitory
+                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="full-name">Dormitory <span class="required">*</span>
                 </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                     {!!Form::select('dormitory_id', $dorm, $user->dormitory_id, ['class' => 'form-control'])!!}
@@ -87,7 +87,7 @@ table th, table tr{
               </div>
 
               <div class="form-group">
-                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="password">Password
+                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="password">Password <span class="required">*</span>
                 </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input type="password" id="password" name="password" value="" class="form-control"></br>
@@ -111,28 +111,32 @@ table th, table tr{
 
             <div class="user_divv">
               <div class="form-group driver user_div hide">
-                <label for="contact" class="control-label col-md-3 col-sm-3 col-xs-12">Phone <span class="required driver hide">*</span></label>
+                <label for="contact" class="control-label col-md-3 col-sm-3 col-xs-12">Phone <span class="required">*</span>
+                <!-- <span class="required driver hide">*</span> -->
+                </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="contact" class="form-control" type="phone" name="phone" value="{{ old('phone', isset($user->profile)?$user->profile->phone:'') }}">
                 </div>
               </div>
 
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label for="block" class="control-label col-md-3 col-sm-3 col-xs-12">Block</label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="block" class="form-control" type="text" name="block" value="{{ old('block', isset($user->profile)?$user->profile->block:'') }}">
                 </div>
-              </div>
+              </div> -->
 
               <div class="form-group driver user_div hide">
-                <label for="address" class="control-label col-md-3 col-sm-3 col-xs-12">Street Address <span class="required driver hide">*</span></label>
+                <label for="address" class="control-label col-md-3 col-sm-3 col-xs-12">Street Address <span class="required">*</span>
+                <!-- <span class="required driver hide">*</span> -->
+                </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="address" class="form-control" type="text" name="street_address" value="{{ old('street_address', isset($user->profile)?(isset($user->profile->dormitory)?$user->profile->dormitory->address:$user->profile->street_address):'') }}">
                 </div>
               </div>
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label for="sub_block" class="control-label col-md-3 col-sm-3 col-xs-12">Sub-Block</label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="sub_block" class="form-control" type="text" name="sub_block" value="{{ old('sub_block', isset($user->profile)?$user->profile->sub_block:'') }}">
@@ -158,7 +162,7 @@ table th, table tr{
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="room_no" class="form-control" type="text" name="room_no" value="{{ old('room_no', isset($user->profile)?$user->profile->room_no:'') }}">
                 </div>
-              </div>
+              </div> -->
 
               <div class="form-group user_div hide">
                 <label for="zip_code" class="control-label col-md-3 col-sm-3 col-xs-12">Postal Code</label>

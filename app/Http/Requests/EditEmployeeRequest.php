@@ -48,11 +48,14 @@ class EditEmployeeRequest extends FormRequest
         }
 
         if($role == 3){
+            $data['dormitory_id'] = 'required|not_in:0';
             $data['fin_no'] = 'required';
-            $data['dob'] = 'required|date|olderThan:18';
+            $data['phone'] = 'required';
+            $data['street_address'] = 'required';
+            $data['zip_code'] = 'required';
+            $data['wp_expiry'] = 'required | date';
             $data['gender'] = 'required';
-            
-            $data['wp_expiry'] = 'date|nullable';
+            $data['dob'] = 'required|date|olderThan:18';
 
             if($profile && $profile->wp_front != ''){
 
@@ -86,6 +89,8 @@ class EditEmployeeRequest extends FormRequest
 
 	public function messages(){
 		return [
+            'zip_code.required' => "The postal code field is required.",
+            'dob.required' => "The date of birth field is required.",
 			'emp_id.required' => "The Employee Id field is required.",
             'password.required' => "The password must contain a Uppercase letter, a lowercase letter, a digit, a special character and minimum length should be 8.",
             'dob.older_than' => "User should be 18 years old.",

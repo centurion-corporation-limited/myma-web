@@ -29,6 +29,7 @@ Route::group(['prefix' => 'v1'], function () {
     Route::post('login', 'AppLoginController@authenticate');
     Route::post('socialLogin', 'AppLoginController@socialLogin');
     Route::post('logout', 'AppLoginController@logout');
+    Route::post('redeem', 'AppLoginController@redeem');
 
     Route::post('merchant/login', 'MerchantLoginController@authenticate');
 

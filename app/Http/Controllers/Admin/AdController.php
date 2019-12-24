@@ -81,7 +81,8 @@ class AdController extends Controller
       //     });
       //     $items = $items->paginate($limit);
       // }else{
-          $items = $items->sortable(['id' => 'desc'])->paginate($limit);
+          //$items = $items->sortable(['id' => 'desc'])->paginate($limit);
+          $items = $items->orderBy('id', 'desc')->paginate($limit);
       // }
 
       $paginate_data = $request->except('page');

@@ -27,13 +27,16 @@ use App\Models\FlexmDoc;
 use App\Models\Activity as LogActivity;
 use Carbon\Carbon;
 
+use App\Models\UserProfile;
+use App\Models\RedeemUser;
+
 class FlexmController extends Controller
 {
     // const BASE_URL = 'https://alpha.flexm.sg/api/';
     const BASE_URL = 'https://wallet.flexm.sg/api/';//'https://test-api.flexm.sg/';
 
     const KIWIRE = 'https://118.189.171.212:10100/';
-    const MYMA_URL = 'https://myhype.space/main/public/api/v1/';
+    const MYMA_URL = 'https://wlc.myma.app/main/public/api/v1/';
 
     public function kiwire(Request $request)
     {
@@ -569,6 +572,41 @@ class FlexmController extends Controller
                 $body = $result->getBody();
                 $content = json_decode($body->getContents());
                 if($content->success){
+                    $user_profile = UserProfile::where('user_id', $user->id)->first();  
+
+                    $content->data->user->isTouchRequested= false;
+                    $content->data->user->isTouchRedeemed= false;
+                    $content->data->user->isStarhubRequested = false;
+                    $content->data->user->isMastercardRequested = false;
+                    $content->data->user->isSpuulRequested = false;
+                    $content->data->user->isLocalFIN = false;
+                    $content->data->user->isTouchActive = true;
+
+                    // $redeem_user_touch = RedeemUser::where('name',$user->name)->where('type','TOUCH')->where('mobile',$user_profile->phone)->where('status','credit_successful')->count();    
+                    // if($redeem_user_touch > 0) $content->data->user->isTouchRedeemed= true;
+
+                    
+                    //$redeem_user_touch = RedeemUser::where('name',$user->name)->where('type','TOUCH')->where('mobile',$user_profile->phone)->count();    
+                    $redeem_user_touch = RedeemUser::where('mobile',$mobile_no)->count();    
+                    if($redeem_user_touch > 0) {
+                        $content->data->user->isTouchRequested= true; 
+                        $content->data->user->isTouchRedeemed= true;
+                    }
+
+                    $redeem_user_starhub = RedeemUser::where('name',$user->name)->where('type','starhub')->where('mobile',$user_profile->phone)->count();    
+                    if($redeem_user_starhub > 0) $content->data->user->isStarhubRequested = true;
+
+                    $redeem_user_mastercard = RedeemUser::where('name',$user->name)->where('type','mastercard')->where('mobile',$user_profile->phone)->count();    
+                    if($redeem_user_mastercard > 0) $content->data->user->isMastercardRequested = true;
+
+                    $redeem_user_spuul = RedeemUser::where('name',$user->name)->where('type','spuul')->where('mobile',$user_profile->phone)->count();    
+                    if($redeem_user_spuul > 0) $content->data->user->isSpuulRequested= true;
+
+                    if (substr($user_profile->fin_no, 0, 1) === 'S')
+                        $content->data->user->isLocalFIN = true;                    
+
+                    $content->data->user->currentTime = date('Y-m-d h:i:s');
+
                     if($user->profile->phone == $data['mobile']){
                         $user->update(['flexm_account' => '1']);
                     }
@@ -592,7 +630,7 @@ class FlexmController extends Controller
                         }
                       }
                     }
-                    if(strtolower(@$cont->user->profile->document_approval_status) == 'pending'){
+                    /*if(strtolower(@$cont->user->profile->document_approval_status) == 'pending'){
                       $user->update(['flexm_status' => 'Need to upload documents.']);
                       $type = 2;
                       if(@$cont->user->profile->id_type == 'epfin'){
@@ -600,7 +638,7 @@ class FlexmController extends Controller
                       }
                       addActivity('Flexm user can\'t login because have not uploaded documents - '.$mobile_no, $user_id, $data, $content, $url);
                       return response()->json(['status' => "error", 'data' => 'upload_doc', 'message'=> "You can't login as have not uploaded document.", 'flexm_token' => $flexm_token, 'type' => $type], 200);
-                    }
+                    }*/
                     // if(strtolower(@$cont->user->profile->document_approval_status) == 'submitted'){
                     //     $user->update(['flexm_status' => 'Document submitted waiting for approval.']);
                     //   addActivity('Flexm user can\'t login as his account is not approved - '.$mobile_no, $user_id, $data, $content, $url);

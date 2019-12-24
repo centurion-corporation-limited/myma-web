@@ -33,7 +33,7 @@
               </div>
 
               <div class="form-group hide dorm">
-                <label class="control-label col-md-2 col-sm-3 col-xs-12" for="full-name">Dormitory
+                <label class="control-label col-md-2 col-sm-3 col-xs-12" for="full-name">Dormitory <span class="required">*</span>
                 </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                     {!!Form::select('dormitory_id', $dorm, old('dormitory_id'), ['class' => 'form-control'])!!}
@@ -106,63 +106,67 @@
             </div> --}}
             <div class="user_divv">
               <div class="form-group driver user_div hide">
-                <label for="contact" class="control-label col-md-2 col-sm-3 col-xs-12">Phone  <span class="driver hide required">*</span></label>
+                <label for="contact" class="control-label col-md-2 col-sm-3 col-xs-12">Phone <span class="required">*</span> 
+                  <!-- <span class="driver hide required">*</span> -->
+                </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="contact" class="form-control" type="phone" name="phone" value="{{ old('phone') }}">
                 </div>
               </div>
 
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label for="block" class="control-label col-md-2 col-sm-3 col-xs-12">Block</label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="block" class="form-control" type="text" name="block" value="{{ old('block') }}">
                 </div>
-              </div>
+              </div> -->
 
               <div class="form-group driver user_div hide">
-                <label for="address" class="control-label col-md-2 col-sm-3 col-xs-12">Street Address  <span class="driver hide required">*</span></label>
+                <label for="address" class="control-label col-md-2 col-sm-3 col-xs-12">Street Address  <span class="required">*</span> 
+                <!-- <span class="driver hide required">*</span> -->
+                </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="address" class="form-control" type="text" name="street_address" value="{{ old('street_address') }}">
                 </div>
               </div>
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label for="sub_block" class="control-label col-md-2 col-sm-3 col-xs-12">Sub-Block</label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="sub_block" class="form-control" type="text" name="sub_block" value="{{ old('sub_block') }}">
                 </div>
-              </div>
+              </div> -->
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label for="floor_no" class="control-label col-md-2 col-sm-3 col-xs-12">Floor No</label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="floor_no" class="form-control" type="text" name="floor_no" value="{{ old('floor_no') }}">
                 </div>
-              </div>
+              </div> -->
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label for="unit_no" class="control-label col-md-2 col-sm-3 col-xs-12">Unit No</label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="unit_no" class="form-control" type="text" name="unit_no" value="{{ old('unit_no') }}">
                 </div>
-              </div>
+              </div> -->
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label for="room_no" class="control-label col-md-2 col-sm-3 col-xs-12">Room No</label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="room_no" class="form-control" type="text" name="room_no" value="{{ old('room_no') }}">
                 </div>
-              </div>
+              </div> -->
 
               <div class="form-group user_div hide">
-                <label for="zip_code" class="control-label col-md-2 col-sm-3 col-xs-12">Postal Code</label>
+                <label for="zip_code" class="control-label col-md-2 col-sm-3 col-xs-12">Postal Code <span class="required">*</span> </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="zip_code" class="form-control" type="text" name="zip_code" value="{{ old('zip_code') }}">
                 </div>
               </div>
 
-              <div class="form-group user_div hide">
+              <!-- <div class="form-group user_div hide">
                 <label class="control-label col-md-2 col-sm-3 col-xs-12">Work permit <span class="fin_field hide required">*</span></label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <div class="row">
@@ -176,21 +180,21 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
               <div class="form-group user_div hide">
-                <label class="control-label col-md-2 col-sm-3 col-xs-12">WP Expiry</label>
+                <label class="control-label col-md-2 col-sm-3 col-xs-12">WP Expiry <span class="required">*</span> </label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input id="wp_expiry" autocomplete="off" name="wp_expiry" class="date-picker form-control" value="{{ old('wp_expiry') }}" type="text">
                 </div>
               </div>
 
-              <div class="form-group driver user_div hide">
+              <!-- <div class="form-group driver user_div hide">
                 <label class="control-label col-md-2 col-sm-3 col-xs-12">Profile Pic  <span class="driver hide required">*</span></label>
                 <div class="col-md-6 col-sm-9 col-xs-12">
                   <input type="file" data-text="false" class="fancy_upload" name="profile_pic">
                 </div>
-              </div>
+              </div> -->
 
 
               <div class="form-group driver user_div hide">

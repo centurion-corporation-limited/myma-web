@@ -71,9 +71,11 @@ class EventController extends Controller
             }else{
                 $title = $cent->lang_content()->first()->title;
             }
-            if(@$cent->main->content($cent->language)->first()){
-              $title .= ' ('.$cent->main->content($cent->language)->first()->title.')';
-            }
+            if($cent->center_id != 13){
+            	if(@$cent->main->content($cent->language)->first()){
+              		$title .= ' ('.$cent->main->content($cent->language)->first()->title.')';
+            	}
+	        }
             $category[$cent->id] = $title;
         }
 

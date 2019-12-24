@@ -298,6 +298,9 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
         // Route::get('/share/edit/{id}',     ['as' => 'admin.share.edit', 'uses' => 'DashboardController@editShare']);
         // Route::post('/share/edit/{id}',    ['as' => 'admin.share.edit', 'uses' => 'DashboardController@postShare']);
 
+
+        Route::get('/redeem',                  ['as' => 'admin.redeem.report','uses' => 'RedeemController@getRedeemReport']);
+        Route::get('/redeem/download',         ['as' => 'admin.redeem.download','uses' => 'RedeemController@exportRedeemReport']);
         Route::get('/revenue',                  ['as' => 'admin.revenue.report','uses' => 'RevenueController@getReport']);
         Route::get('/revenue/download',         ['as' => 'admin.revenue.download','uses' => 'RevenueController@exportRevenueReport']);
         // Route::post('/revenue/download',         ['as' => 'admin.revenue.download','uses' => 'RevenueController@postDownload']);
