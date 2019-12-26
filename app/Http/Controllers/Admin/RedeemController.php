@@ -106,9 +106,8 @@ class RedeemController extends Controller
           });
       }else if($dorm == 6){
         $redeemUserQuery->whereHas('profile', function ($q) use ($dorm) {
-            $q->where('dormitory_id', 0)->orWhereNull('dormitory_id');
+            $q->where('dormitory_id', 0)->orWhere('dormitory_id', 6)->orWhereNull('dormitory_id');
         });
-
       }
 
       if ($sort) {
