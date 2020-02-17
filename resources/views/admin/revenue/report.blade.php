@@ -101,14 +101,14 @@
                 <tbody>
                     @foreach($items as $key => $item)
                     <?php
-                    $total['vendor_sale'] += $item->vendor_sale;
-                    $total['gross'] += $item->gross;
-                    $total['cost_sharing'] += $item->cost_sharing;
-                    $total['txn_fee'] += $item->txn_fee;
-                    $total['cost_charged'] += $item->cost_charged;
-                    $total['net'] += $item->net;
-                    $total['gst'] += @$item->gst;
-                    $total['payback_vendor'] += $item->payback_vendor;
+                    $total['vendor_sale'] += str_replace(',','',$item->vendor_sale) + 0;
+                    $total['gross'] += str_replace(',','',$item->gross) + 0;
+                    $total['cost_sharing'] += str_replace(',','',$item->cost_sharing) + 0;
+                    $total['txn_fee'] += str_replace(',','',$item->txn_fee) + 0;
+                    $total['cost_charged'] += str_replace(',','',$item->cost_charged) + 0;
+                    $total['net'] += str_replace(',','',$item->net) + 0;
+                    $total['gst'] += str_replace(',','',@$item->gst) + 0;
+                    $total['payback_vendor'] += str_replace(',','',$item->payback_vendor) + 0;
                     ?>
                     <tr>
                         <!-- <td>{{ ++$key }}</td> -->
