@@ -122,14 +122,14 @@ class RevenueController extends Controller
 
             $paymentsArray[] = $arr;
 
-            $vendor_sale += $item->vendor_sale;
-            $gross += $item->gross;
-            $cost_sharing += $item->cost_sharing;
-            $txn_fee += $item->txn_fee;
-            $cost_charged += $item->cost_charged;
-            $net += $item->net;
-            $gst += $item->gst;
-            $payback_vendor += $item->payback_vendor;
+            $vendor_sale += str_replace(',','',$item->vendor_sale) + 0;
+            $gross += str_replace(',','',$item->gross) + 0;
+            $cost_sharing += str_replace(',','',$item->cost_sharing) + 0;
+            $txn_fee += str_replace(',','',$item->txn_fee) + 0;
+            $cost_charged += str_replace(',','',$item->cost_charged) + 0;
+            $net += str_replace(',','',$item->net) + 0;
+            $gst += str_replace(',','',$item->gst) + 0;
+            $payback_vendor += str_replace(',','',$item->payback_vendor) + 0;
       }
 
       $arr = [];
