@@ -119,7 +119,11 @@ class MaintenanceController extends Controller
         $id = decrypt($id);
     	$auth_user = \Auth::user();
     	$item = Maintenance::findOrFail($id);
-        $status = Status::where('type', 'maintenance')->where('id', '>=', $item->status_id)->pluck('name', 'id');
+        if($item->status_id == 3){
+            $status = Status::where('type', 'maintenance')->where('id', '>=', 1)->pluck('name', 'id');
+        } else {
+            $status = Status::where('type', 'maintenance')->where('id', '>=', $item->status_id)->pluck('name', 'id');
+        }
 
         return view('admin.maintenance.edit', compact('item', 'status'));
     }
